@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.posts {
+  background: #00000058;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  border: 2px solid yellow;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.post {
+  background: #00000058;
+  padding: 20px;
+}
+
+.post > *:first-child {
+  color: yellow;
+}
